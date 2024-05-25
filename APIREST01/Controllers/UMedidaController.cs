@@ -42,7 +42,7 @@ namespace APIREST01.Controllers
         }
 
         [HttpDelete]
-        [Route("Eliminar")]
+        [Route("Eliminar/{Id}")]
         public string Eliminar(Guid Id)
         {
             var RolJson = Cd_UMedida.Instancia.EliminarMedida(Id);

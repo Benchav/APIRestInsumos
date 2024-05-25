@@ -2,10 +2,6 @@
 {
     public class Inventariado:BaseEntity
     {
-        //agregar el guid en la tabla 
-
-
-        //este es un catalogo secundario
       public Guid IdDetalleProd {  get; set; }
         public Guid IdProveedor { get; set; }
         public int Existencia { get; set; }

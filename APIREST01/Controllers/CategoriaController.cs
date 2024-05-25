@@ -15,7 +15,7 @@ namespace APIREST01.Controllers
             List <Categoria> lista = Cd_Categoria.Instancia.ObtenerCategoria();
             return new JsonResult(new { data= lista });
         }
-
+            
         [HttpGet]
         [Route ("Listar")]
         public string GetCategorias()
@@ -41,9 +41,10 @@ namespace APIREST01.Controllers
         }
 
         [HttpDelete]
-        [Route("Eliminar")]
+        [Route("Eliminar/{Id}")]
         public string EliminarCategorias( Guid Id )
         {
+
             var CategoriasJson = Cd_Categoria.Instancia.EliminarCategoria(Id);
             return Newtonsoft.Json.JsonConvert.SerializeObject(CategoriasJson);
         }
