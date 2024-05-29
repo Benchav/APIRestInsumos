@@ -30,7 +30,7 @@ namespace CapaDatos
             using (SqlConnection oConexion = new SqlConnection(Connection.ConnectionString()))
             {
                 //buscar como puede funcionar el sp de usp_Usuariosobtene
-                SqlCommand cmd = new SqlCommand("USP_UsuarioObtene", oConexion);
+                SqlCommand cmd = new SqlCommand("USP_UsuarioObtener", oConexion);
                 cmd.CommandType = CommandType.StoredProcedure;
                 try
                 {
@@ -41,19 +41,19 @@ namespace CapaDatos
                         rptListaUsuario.Add(new Usuario()
                         {
                             Id = Guid.Parse(dr["IdUsuario"].ToString()),
+                            IdRol = Guid.Parse(dr["IdRol"].ToString()),
                             PrimerNombre = dr["PrimerNombre"].ToString(),
                             SegundoNombre = dr["SegundoNombre"].ToString(),
                             PrimerApellido = dr["PrimerApellido"].ToString(),
                             SegundoApellido = dr["SegundoApellido"].ToString(),
                             Correo = dr["Correo"].ToString(),
                             //   IdRol= Convert.ToInt32(dr["IdRol"].ToString()),
-                            IdRol = Guid.Parse(dr["IdRol"].ToString()),
                             Estado = Convert.ToBoolean(dr["Estado"].ToString()),
                             Sexo = dr["Sexo"].ToString(),
                             Username = dr["Username"].ToString(),
                             Contraseña = dr["Contraseña"].ToString(),
                             FechaCreacion = Convert.ToDateTime(dr["FechaCreacion"].ToString()),
-                            objRol = new Rol() { Descripcion = dr["Descripcion"].ToString() }
+                          //  objRol = new Rol() { Descripcion = dr["Descripcion"].ToString() }
                         });
                     }
                     dr.Close();
@@ -77,12 +77,12 @@ namespace CapaDatos
                     Guid NewId = Guid.NewGuid();
 
                     cmd.Parameters.AddWithValue("IdUsuario", NewId);
+                    cmd.Parameters.AddWithValue("IdRol", oUsuario.IdRol);
                     cmd.Parameters.AddWithValue("PrimerNombre", oUsuario.PrimerNombre);
                     cmd.Parameters.AddWithValue("SegundoNombre", oUsuario.SegundoNombre);
                     cmd.Parameters.AddWithValue("PrimerApellido", oUsuario.PrimerApellido);
                     cmd.Parameters.AddWithValue("SegundoApellido", oUsuario.SegundoApellido);
                     cmd.Parameters.AddWithValue("Correo", oUsuario.Correo);
-                    cmd.Parameters.AddWithValue("IdRol", oUsuario.IdRol);
                     cmd.Parameters.AddWithValue("Estado", oUsuario.Estado);
                     cmd.Parameters.AddWithValue("Sexo", oUsuario.Sexo);
                     cmd.Parameters.AddWithValue("Username", oUsuario.Username);
@@ -111,12 +111,12 @@ namespace CapaDatos
                     SqlCommand cmd = new SqlCommand("USP_UsuarioActualizar", oConexion);
 
                     cmd.Parameters.AddWithValue("IdUsuario", oUsuario.Id);
+                    cmd.Parameters.AddWithValue("IdRol", oUsuario.IdRol);
                     cmd.Parameters.AddWithValue("PrimerNombre", oUsuario.PrimerNombre);
                     cmd.Parameters.AddWithValue("SegundoNombre", oUsuario.SegundoNombre);
                     cmd.Parameters.AddWithValue("PrimerApellido", oUsuario.PrimerApellido);
                     cmd.Parameters.AddWithValue("SegundoApellido", oUsuario.SegundoApellido);
                     cmd.Parameters.AddWithValue("Correo", oUsuario.Correo);
-                    cmd.Parameters.AddWithValue("IdRol", oUsuario.IdRol);
                     cmd.Parameters.AddWithValue("Estado", oUsuario.Estado);
                     cmd.Parameters.AddWithValue("Sexo", oUsuario.Sexo);
                     cmd.Parameters.AddWithValue("Username", oUsuario.Username);

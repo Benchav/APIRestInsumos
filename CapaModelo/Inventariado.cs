@@ -2,6 +2,8 @@
 {
     public class Inventariado:BaseEntity
     {
+
+        //hay que mapearlo como principal pa que sirba y resolver
       public Guid IdDetalleProd {  get; set; }
         public Guid IdProveedor { get; set; }
         public int Existencia { get; set; }

@@ -4,6 +4,9 @@ namespace CapaModelo
 {
     public class Usuario : BaseEntity
     {
+
+        public Guid IdRol { get; set; }
+
         [Required(ErrorMessage = "El Primer Nombre es obligatorio.")]
         public string PrimerNombre { get; set; }
         
@@ -23,7 +26,6 @@ namespace CapaModelo
 
         public string Correo { get; set; }
 
-        public Guid IdRol { get; set; }
 
         [Required(ErrorMessage = "El  Estado es obligatorio.")]
         [Range(0, int.MaxValue, ErrorMessage = "El estado debe ser un número positivo.")]
@@ -43,7 +45,7 @@ namespace CapaModelo
         [Required(ErrorMessage = "La fecha de creacion es obligatorio.")]
         public DateTime FechaCreacion { get; set; }
 
-        public Rol objRol { get; set; }
+       // public Rol objRol { get; set; }
 
     }
 }

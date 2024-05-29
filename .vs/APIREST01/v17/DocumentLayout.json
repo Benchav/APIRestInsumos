@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\APIREST0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|c:\\users\\joshu\\desktop\\apirest0\\capamodelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|solutionrelative:capamodelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|c:\\users\\joshu\\desktop\\apirest0\\capamodelo\\inventariado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|solutionrelative:capamodelo\\inventariado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|c:\\users\\joshu\\desktop\\apirest0\\capamodelo\\dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|solutionrelative:capamodelo\\dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|c:\\users\\joshu\\desktop\\apirest0\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|c:\\users\\joshu\\desktop\\apirest0\\capadatos\\cd_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|c:\\users\\joshu\\desktop\\apirest0\\capamodelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|solutionrelative:capamodelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|c:\\users\\joshu\\desktop\\apirest0\\capadatos\\cd_dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A8D6540-7DA1-413A-BE7F-56B1E7C6A233}|APIREST01\\APIREST01.csproj|c:\\users\\joshu\\desktop\\apirest0\\apirest01\\controllers\\umedidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A8D6540-7DA1-413A-BE7F-56B1E7C6A233}|APIREST01\\APIREST01.csproj|solutionrelative:apirest01\\controllers\\umedidacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +51,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Producto.cs",
+              "RelativeDocumentMoniker": "CapaModelo\\Producto.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Producto.cs",
+              "RelativeToolTip": "CapaModelo\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:32:29.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventariado.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Inventariado.cs",
+              "RelativeDocumentMoniker": "CapaModelo\\Inventariado.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Inventariado.cs",
+              "RelativeToolTip": "CapaModelo\\Inventariado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:31:49.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DtProducto.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\DtProducto.cs",
+              "RelativeDocumentMoniker": "CapaModelo\\DtProducto.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\DtProducto.cs",
+              "RelativeToolTip": "CapaModelo\\DtProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:31:12.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cd_Rol.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Rol.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Cd_Rol.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Rol.cs",
+              "RelativeToolTip": "CapaDatos\\Cd_Rol.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:15:08.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "CapaModelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Usuario.cs",
+              "RelativeToolTip": "CapaModelo\\Usuario.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:59:49.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cd_Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Usuario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Cd_Usuario.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Usuario.cs",
+              "RelativeToolTip": "CapaDatos\\Cd_Usuario.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAcwCAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:58:49.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cd_DtProducto.cs",
+              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_DtProducto.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Cd_DtProducto.cs",
+              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_DtProducto.cs",
+              "RelativeToolTip": "CapaDatos\\Cd_DtProducto.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowC0AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T00:39:42.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UMedidaController.cs",
               "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\APIREST01\\Controllers\\UMedidaController.cs",
               "RelativeDocumentMoniker": "APIREST01\\Controllers\\UMedidaController.cs",
               "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\APIREST01\\Controllers\\UMedidaController.cs",
               "RelativeToolTip": "APIREST01\\Controllers\\UMedidaController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAIwCwAAAAdAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T02:21:45.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\APIREST01\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "APIREST01\\Controllers\\RolController.cs",
@@ -43,8 +162,7 @@
               "RelativeToolTip": "APIREST01\\Controllers\\RolController.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowBcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T01:29:08.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T01:29:08.695Z"
             }
           ]
         }
