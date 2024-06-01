@@ -41,7 +41,7 @@ namespace APIREST01.Controllers
         }
 
         [HttpDelete]
-        [Route("Eliminar")]
+        [Route("Eliminar/{Id}")]
         public string EliminarProveedor(Guid Id)
         {
             var ProveedorJson = Cd_Proveedor.Instancia.EliminarProveedor(Id);

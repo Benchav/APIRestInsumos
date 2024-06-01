@@ -41,7 +41,7 @@ namespace APIREST01.Controllers
         }
 
         [HttpDelete]
-        [Route("Eliminar")]
+        [Route("Eliminar/{Id}")]
         public string EliminarUser(Guid Id)
         {
             var UserJson = Cd_Usuario.Instancia.EliminarUsuario(Id);

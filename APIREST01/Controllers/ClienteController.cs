@@ -41,7 +41,7 @@ namespace APIREST01.Controllers
         }
 
         [HttpDelete]
-        [Route("Eliminar")]
+        [Route("Eliminar/{Id}")]
         public string EliminarCategorias(Guid Id)
         {
             var ClienteJson = Cd_Cliente.Instancia.EliminarCliente(Id);
