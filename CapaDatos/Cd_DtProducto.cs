@@ -43,10 +43,10 @@ namespace CapaDatos
                             IdProducto = Guid.Parse(dr["IdProducto"].ToString()),
                             IdMedida = Guid.Parse(dr["IdMedida"].ToString()),
                             Descripcion = dr["Descripcion"].ToString(),
-                            Estado = Convert.ToBoolean(dr["Estado"].ToString()),
+                         //   Estado = Convert.ToBoolean(dr["Estado"].ToString()),
                             Marca = dr["Marca"].ToString(),
-                            objProducto = new Producto() { NombreProducto = dr["NombreProducto"].ToString() }
-                            //    Estado= Convert.ToBoolean(dr["Estado"].ToString())
+                            objProducto = new Producto() { NombreProducto = dr["NombreProducto"].ToString() },
+                              Estado= dr["Estado"] == DBNull.Value ? false : Convert.ToBoolean(dr["Estado"].ToString())
 
 
                         });

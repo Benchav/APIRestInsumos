@@ -40,16 +40,15 @@ namespace CapaDatos
                             Id = Guid.Parse(dr["IdProducto"].ToString()),
                             NombreProducto = dr["NombreProducto"].ToString(),
                             IdCategoria = Guid.Parse(dr["IdCategoria"].ToString()),
-                            objCategoria = new Categoria() { Descripcion = dr["Descripcion"].ToString()}
-                        //    Estado= Convert.ToBoolean(dr["Estado"].ToString())
+                            objCategoria = new Categoria() { Descripcion = dr["Descripcion"].ToString() }
+                           // Estado = dr["Estado"] == DBNull.Value ? false : Convert.ToBoolean(dr["Estado"].ToString())
 
-                      
                         });
                     }
                     dr.Close();
                     return rptListaProducto;
                 }
-                catch
+                catch (Exception ex) 
                 {
                     rptListaProducto = null;
                     return rptListaProducto;
@@ -115,7 +114,6 @@ namespace CapaDatos
             {
                 try
                 {
-                    //  SqlCommand cmd = new SqlCommand("spEliminarGuidProducto", oConexion);
                     SqlCommand cmd = new SqlCommand("USP_ProductoEliminar", oConexion);
                     cmd.Parameters.AddWithValue("IdProducto", IdProducto);
                     cmd.Parameters.Add("Resultado", SqlDbType.Bit).Direction = ParameterDirection.Output;
