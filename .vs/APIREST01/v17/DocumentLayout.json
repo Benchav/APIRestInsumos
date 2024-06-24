@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\joshu\\Desktop\\APIREST0\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|c:\\users\\joshu\\desktop\\apirest0\\capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|c:\\users\\joshu\\desktop\\apirest0\\capamodelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D15E0BC-5F97-4F35-BB0A-D56514625323}|CapaModelo\\CapaModelo.csproj|solutionrelative:capamodelo\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|c:\\users\\joshu\\desktop\\apirest0\\capadatos\\cd_dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14C0AC4F-51A2-49DB-9BE4-19FC871590F4}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_dtproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cd_DtProducto.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_DtProducto.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\Cd_DtProducto.cs",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_DtProducto.cs",
-              "RelativeToolTip": "CapaDatos\\Cd_DtProducto.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAqwDAAAAB3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T16:57:38.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cd_Producto.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Producto.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\Cd_Producto.cs",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaDatos\\Cd_Producto.cs",
-              "RelativeToolTip": "CapaDatos\\Cd_Producto.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAkwCoAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T14:01:23.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Producto.cs",
-              "RelativeDocumentMoniker": "CapaModelo\\Producto.cs",
-              "ToolTip": "C:\\Users\\joshu\\Desktop\\APIREST0\\CapaModelo\\Producto.cs",
-              "RelativeToolTip": "CapaModelo\\Producto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:56:04.826Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
