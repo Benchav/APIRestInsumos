@@ -1,0 +1,13 @@
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\bin\Release\net6.0\CapaModelo.deps.json
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\bin\Release\net6.0\CapaModelo.dll
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\bin\Release\net6.0\CapaModelo.pdb
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.csproj.AssemblyReference.cache
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.AssemblyInfoInputs.cache
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.AssemblyInfo.cs
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.csproj.CoreCompileInputs.cache
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.sourcelink.json
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.dll
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\refint\CapaModelo.dll
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\CapaModelo.pdb
+C:\Users\joshu\Desktop\APIREST0\CapaModelo\obj\Release\net6.0\ref\CapaModelo.dll
