@@ -7,7 +7,12 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaKsMSQvw+0mGV5YyfCFtLQAAAAACAAAAAAAQZgAAAAEAACAAAAD27CjDiKYlqmDPzYaPVtJ4I/b9xMnwW2sOfUISFkQfzAAAAAAOgAAAAAIAACAAAAA0s0G3SMi93frjEk0V0CGDF45IPddfTxlPBJtKsppm4iAAAACYb4rLh4fyrstrs2p5aY+2EPTYhVJ1IDToG0q4IsT9a0AAAADElqh1Ldl7uXASuLOYH1wIGLm2mJ+ZY3HpAlywcrvesILEooWaJ0LJLfQFIlz82++8OcAO+ZakybkjkEUZ7YUb</EncryptedPassword>
-    <History>False|2024-10-17T20:30:59.3556918Z;False|2024-10-17T13:47:11.4039393-06:00;False|2024-10-17T13:46:10.2820145-06:00;</History>
+    <History>False|2024-11-25T23:09:41.3270372Z;False|2024-11-25T17:08:30.3175035-06:00;False|2024-11-25T17:07:07.3436353-06:00;False|2024-10-17T14:30:59.3556918-06:00;False|2024-10-17T13:47:11.4039393-06:00;False|2024-10-17T13:46:10.2820145-06:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=INS2024.database.windows.net%3bDatabase=InBRejem2024%3bUser ID=Ins2024%3bPassword=Insm245lolp%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>
